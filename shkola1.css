@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .school-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    padding: 20px;
+  }
+  
+  .text-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
