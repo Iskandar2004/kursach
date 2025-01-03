@@ -194,8 +194,26 @@
           <p>Onajon Sodikova is a brilliant student with a passion for science and technology. She has consistently ranked at the top of her class and has won numerous awards in mathematics and science competitions. Onajon is also an accomplished pianist and has performed at several school concerts. She is a member of the school's robotics club and has participated in regional and national robotics competitions. Onajon dreams of becoming a computer scientist and developing innovative solutions to global challenges. With her intelligence, creativity, and determination, she is well on her way to achieving her goals.</p>
         </div>
       </div>
-    
+    <form id="contactForm" onsubmit="sendEmail(event)">
+  <div class="form-group">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required />
+  </div>
 
+  <div class="form-group">
+    <label for="email">Ваш Email:</label>
+    <input type="email" id="email" name="email" placeholder="Введите ваш email" required />
+  </div>
+
+  <div class="form-group">
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Введите сообщение" required></textarea>
+  </div>
+
+  <button type="submit">Отправить</button>
+    </form>
+
+    
       <footer>
             <div class="mu-footer-top">
         <div class="container">
